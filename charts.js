@@ -59,7 +59,7 @@ function buildCharts(sample) {
   d3.json("samples.json").then((data) => {
     // 3. Create a variable that holds the samples array. 
   var samples = data.samples;
-  
+  console.log(samples);
     // 4. Create a variable that filters the samples for the object with the desired sample number.
   var filteredSamples = metadata.filter(allSamples) => 
     //  5. Create a variable that holds the first sample in the array.
