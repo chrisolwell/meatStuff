@@ -119,7 +119,7 @@ function buildCharts(sample) {
 
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
-      title: "Title",
+      title: "Bacteria per sample",
       // margin: 
       hovermode: "closest",
       xaxis: { Title: "x axis"}
@@ -140,7 +140,7 @@ function buildCharts(sample) {
       {
         domain: {x: [0,1], y:[0,1]},
         value: wfreq,
-        title: {text: "Measurement of nastiness"},
+        title: {text: "Washes per week"},
         type: "indicator",
         mode: "gauge+number",
         gauge: {

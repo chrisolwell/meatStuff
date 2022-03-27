@@ -1,0 +1,10 @@
+body {
+    color: "808080";
+}
+
+.jumbotron {
+    background-image: url("static/images/IMG_4394.png");
+    background-color: coral;
+    background-size: 100% 100%;
+    text-align: center;
+}
